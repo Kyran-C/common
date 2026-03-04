@@ -61,6 +61,7 @@ public:
 	  -> Maybe&;
 
 	// returns true if we have a value
+	explicit
 	operator bool() const;
 
 	// get value if it exists
