@@ -15,9 +15,12 @@ public:
 	auto next()
 	  -> ID_Type;
 
+	auto current()
+	  -> ID_Type;
+
 private:
 
-	ID_Type next_id{};
+	ID_Type current_id{};
 };
 
 } // namespace lunar
